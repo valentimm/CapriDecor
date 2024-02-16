@@ -76,6 +76,13 @@ export const Main = styled.main`
         box-sizing: border-box;
     }
 
+    #internalControl .checkbox {
+        display: flex;
+        max-width: 600px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     //----------------------Client Info-----------------------//
 
     #clientInfo {

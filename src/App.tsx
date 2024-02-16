@@ -30,11 +30,11 @@ export function App() {
                   <label htmlFor="observacoes">Observações:</label>
                   <input type="text" id="observacoes" name="name" />
                 </div>
-                <div>
-                  <input type="checkbox" id="orçamento" name="orçamento" value="Orçamento" />
-                  <label htmlFor="orçamento"> Orçamento</label>
-                  <input type="checkbox" id="pedido" name="pedido" value="Pedido" />
+                <div className="checkbox">
+                  <label htmlFor="orcamento"> Orçamento</label>
+                  <input type="checkbox" id="orcamento" name="orcamento" value="Orçamento" />
                   <label htmlFor="pedido"> Pedido</label>
+                  <input type="checkbox" id="pedido" name="pedido" value="Pedido" />
                 </div>
                 <div >
                   <label htmlFor="data">Data da confirmação:</label>
@@ -103,9 +103,9 @@ export function App() {
                     <label htmlFor="ambiente01"></label>
                     <input type="text" id="ambiente01" name="Ambiente01" />
                     <label htmlFor="altura01">Altura</label>
-                    <input type="number" id="altura01" name="AlturaAmbiente01" />
+                    <input type="text" id="altura01" name="AlturaAmbiente01" />
                     <label htmlFor="largura01">Largura</label>
-                    <input type="number" id="largura01" name="LarguraAmbiente01" />
+                    <input type="text" id="largura01" name="LarguraAmbiente01" />
                 </div>
                 <div>
                     <label htmlFor="ambiente02"></label>
