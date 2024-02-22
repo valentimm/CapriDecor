@@ -84,7 +84,7 @@ export function App() {
                   <input type="email" id="email" name="E-mail" />
                 </div>
                 <div>
-                  <label htmlFor="observacoes">Como chegou ate a CapriDecor:</label>
+                  <label htmlFor="observacoes">Como chegou:</label>
                   <input type="checkbox" id="indicação" name="indicação" value="indicação" />
                   <label htmlFor="indicação"> Indicação</label>
                   <input type="checkbox" id="instagram" name="instagram" value="instagram" />
@@ -124,7 +124,60 @@ export function App() {
                     <input type="number" id="largura03" name="LarguraAmbiente03" />
                 </div>
               </form>
-
+            <h2>Informações Técnicas - Modelo</h2>
+              <form id="modelInfo">
+                <h3>Prega</h3>
+                <div>
+                  <label htmlFor="pregaAmericana">Americana</label>
+                  <input type="checkbox" id="americana" name="americana" />
+                  <label htmlFor="pregaFêmea">Fêmea</label>
+                  <input type="checkbox" id="pregaFêmea" name="PregaFêmea" />
+                </div>
+                <div>
+                  <label htmlFor="pregaArgola">Argola</label>
+                  <input type="checkbox" id="argola" name="argola" />
+                  <label htmlFor="pregaMacho">Macho</label>
+                  <input type="checkbox" id="pregaMacho" name="PregaMacho" />
+                </div>
+                <div>
+                  <label htmlFor="pregaIlhós">Ilhós</label>
+                  <input type="checkbox" id="Ilhós" name="Ilhós" />
+                  <label htmlFor="Wave">Wave</label>
+                  <input type="checkbox" id="Wave" name="Wave" />
+                </div>
+                <div>
+                  <label htmlFor="Franzida">Franzida</label>
+                  <input type="checkbox" id="Franzida" name="Franzida" />
+                </div>
+                <h3>Abertura</h3>
+                <div>
+                  <label htmlFor="Inteira">Inteira</label>
+                  <input type="checkbox" id="Inteira" name="Inteira" />
+                  <label htmlFor="Meio">Meio</label>
+                  <input type="checkbox" id="Meio" name="Meio" />
+                </div>
+                <h3>Forro/Blackout</h3>
+                <div>
+                  <label htmlFor="Costurar junto">Costurar junto</label>
+                  <input type="checkbox" id="Costurar junto" name="Costurar junto" />
+                  <label htmlFor="Separado">Separado</label>
+                  <input type="checkbox" id="Separado" name="Separado" />
+                  <h3>Inversão</h3>
+                <div>
+                  <label htmlFor="Sim">Sim</label>
+                  <input type="checkbox" id="Sim" name="Sim" />
+                  <label htmlFor="Não">Não</label>
+                  <input type="checkbox" id="Não" name="Não" />
+                </div>
+                <h3>Instalação</h3>
+                <div>
+                  <label htmlFor="Sim">Sim</label>
+                  <input type="checkbox" id="Sim" name="Sim" />
+                  <label htmlFor="Não">Não</label>
+                  <input type="checkbox" id="Não" name="Não" />
+                </div>
+                </div>
+              </form>
         </form>
         </Main>
     </ThemeProvider>
